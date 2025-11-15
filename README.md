@@ -59,9 +59,7 @@ Simulátor je demonstrován na 2‑páskovém stroji realizujícím funkci:
 
 
 
-\[
-\operatorname{fun}(x_1, \dots, x_n) = \prod_{i=1}^{n} x_i
-\]
+<img width="269" height="92" alt="image" src="https://github.com/user-attachments/assets/24188218-bc8a-4eff-ba49-d7adb2f287e7" />
 
 
 
