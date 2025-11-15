@@ -1,4 +1,4 @@
-# 📄 README.md: Simulace Deterministického Turingova Stroje (TS)
+# Simulace Deterministického Turingova Stroje (TS)
 
 Tento projekt implementuje simulátor **deterministického 2‑páskového Turingova stroje** v jazyce Python.  
 Stroj je navržen k demonstraci výpočtu funkce **součinu** ($\Pi_{i=1}^{n} x_i$) binárně kódovaných čísel.
@@ -60,7 +60,7 @@ Simulátor je demonstrován na 2‑páskovém stroji realizujícím funkci:
 
 
 \[
-\text{fun}(x_1, \dots, x_n) = \Pi_{i=1}^{n} x_i
+\operatorname{fun}(x_1, \dots, x_n) = \prod_{i=1}^{n} x_i
 \]
 
 
@@ -111,8 +111,8 @@ def main():
     mode = input("Zvol režim (sum nebo multi): ").strip().lower()
     raw_input = input("Zadej vstupní řetězec (např. 101#11): ").strip()
     # ...
-
-### Doporučený scénář
+```
+## Doporučený scénář
 
 - **Zvolte režim:** `multi`  
 - **Zadejte vstup:** `101#11` (vstup pro \(5 \cdot 3\))  
