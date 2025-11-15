@@ -137,8 +137,6 @@ Po skončení simulace (`EndingStateReached`) program poskytne:
 
 ---
 
----
-
 ## Nedostatky
 
 Projekt je funkční, ale má několik zásadních omezení, která je nutné do budoucna odstranit:
