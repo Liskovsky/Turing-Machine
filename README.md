@@ -113,7 +113,7 @@ def main():
 ## Doporučený scénář
 
 - **Zvolte režim:** `multi`  
-- **Zadejte vstup:** `101#11` (vstup pro \(5 \cdot 3\))  
+- **Zadejte vstup:** `101#11` (vstup pro 5 x 3)  
 - **Očekávaný výstup:** binární reprezentace čísla **15** (`1111`) na výstupní pásce.
 
 ---
@@ -134,4 +134,27 @@ Po skončení simulace (`EndingStateReached`) program poskytne:
 
 4. **Binární výsledek:**  
    Řetězec symbolů (očištěný od `#`) z výstupní pásky.
+
+---
+
+---
+
+## Nedostatky
+
+Projekt je funkční, ale má několik zásadních omezení, která je nutné do budoucna odstranit:
+
+1. **Sčítání pouze pro tři čísla**  
+   - Aktuální implementace zvládne sčítat jen tři čísla, nikoli dvě.  
+   - **Plánované řešení:** Upravit logiku vstupního parseru a přechodů tak, aby se sčítání spustilo ihned po nalezení prvního oddělovače `#`. Tím bude možné provádět klasické binární sčítání dvou operandů.
+
+2. **Násobení pouze pro dvě čísla**  
+   - Stroj zatím neumí násobit více než dva operandy.  
+   - **Plánované řešení:** Doplnit **třetí pásku**, která bude sloužit pro staging třetího čísla.  
+     - Příklad vstupu: `###101#10#11###`  
+       - Páska 1: obsahuje všechna čísla.  
+       - Páska 2: mezivýsledek `101 * 10`.  
+       - Páska 3: uložený násobitel `11`.  
+     - Výpočet: nejprve se spočítá `101 * 10` na pásce 2, poté se výsledek násobí číslem `11` z pásky 3 opakovaným sčítáním.
+
+---
 
