@@ -105,25 +105,7 @@ Výstupem simulace bude sekvence dílčích výpočtů a finální binární vý
 
 ---
 
-## 4. Kódování Turingova Stroje
-Po dokončení simulace je stroj zakódován pomocí třídy `TuringMachineCoder` do **unární podoby**.
-
-### Základní symboly
-- Hodnota: `0`
-- Oddělovač dat v přechodu: `1`
-- Oddělovač hlavních sekcí: `11`
-- Začátek/Konec kódu: `111`
-
-### Struktura kódu
-1. `111` (Začátek)
-2. Kódování **abecedy**
-3. Kódování **stavů** (počet stavů, startovní stav, koncové stavy)
-4. Kódování **přechodových funkcí**
-5. `111` (Konec)
-
----
-
-## 5. Spuštění
+## 4. Spuštění
 Program se spouští z metody `main()`:
 
 ```python
