@@ -1,0 +1,2536 @@
+Zvol režim (sum / multi / fun): fun
+Zadej vstupní øetìzec: ##101#11#10###
+Vstup:
+###101#101#101####################
+   ^
+##################################
+^
+
+Krok 261, Stav: 0
+Páska 1:
+###101#101#101####################
+   ^
+Páska 2:
+##################################
+^
+?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 262, Stav: 1
+Páska 1:
+###101#101#101####################
+    ^
+Páska 2:
+##################################
+ ^
+?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 263, Stav: 1
+Páska 1:
+###101#101#101####################
+     ^
+Páska 2:
+##################################
+  ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 264, Stav: 1
+Páska 1:
+###101#101#101####################
+      ^
+Páska 2:
+##################################
+   ^
+?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 265, Stav: 2
+Páska 1:
+###101#101#101####################
+       ^
+Páska 2:
+##################################
+    ^
+?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 266, Stav: 1
+Páska 1:
+###101#101#101####################
+        ^
+Páska 2:
+##################################
+     ^
+?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 267, Stav: 1
+Páska 1:
+###101#101#101####################
+         ^
+Páska 2:
+##################################
+      ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 268, Stav: 1
+Páska 1:
+###101#101#101####################
+          ^
+Páska 2:
+##################################
+       ^
+?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 269, Stav: 2
+Páska 1:
+###101#101#101####################
+           ^
+Páska 2:
+##################################
+        ^
+?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 270, Stav: 1
+Páska 1:
+###101#101#101####################
+            ^
+Páska 2:
+##################################
+         ^
+?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 271, Stav: 1
+Páska 1:
+###101#101#101####################
+             ^
+Páska 2:
+##################################
+          ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 272, Stav: 1
+Páska 1:
+###101#101#101####################
+              ^
+Páska 2:
+##################################
+           ^
+?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 273, Stav: 2
+Páska 1:
+###101#101#101####################
+               ^
+Páska 2:
+##################################
+            ^
+?(2, #, #) = (3, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 274, Stav: 3
+Páska 1:
+###101#101#101####################
+              ^
+Páska 2:
+##################################
+           ^
+?(3, #, #) = (4, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 275, Stav: 4
+Páska 1:
+###101#101#101####################
+             ^
+Páska 2:
+##################################
+          ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 276, Stav: 4
+Páska 1:
+###101#101#10#####################
+            ^
+Páska 2:
+##########1#######################
+         ^
+?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+-----------------------------------
+Krok 277, Stav: 4
+Páska 1:
+###101#101#1######################
+           ^
+Páska 2:
+#########01#######################
+        ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 278, Stav: 4
+Páska 1:
+###101#101########################
+          ^
+Páska 2:
+########101#######################
+       ^
+?(4, #, #) = (5, #, #, NONE, RIGHT)
+-----------------------------------
+Krok 279, Stav: 5
+Páska 1:
+###101#101########################
+          ^
+Páska 2:
+########101#######################
+        ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 280, Stav: 5
+Páska 1:
+###101#101########################
+          ^
+Páska 2:
+########101#######################
+         ^
+?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+-----------------------------------
+Krok 281, Stav: 5
+Páska 1:
+###101#101########################
+          ^
+Páska 2:
+########101#######################
+          ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 282, Stav: 5
+Páska 1:
+###101#101########################
+          ^
+Páska 2:
+########101#######################
+           ^
+?(5, #, #) = (8, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 283, Stav: 8
+Páska 1:
+###101#101########################
+         ^
+Páska 2:
+########101#######################
+          ^
+?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+-----------------------------------
+Krok 284, Stav: 6
+Páska 1:
+###101#101########################
+         ^
+Páska 2:
+########101#######################
+          ^
+?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+-----------------------------------
+Krok 285, Stav: 7
+Páska 1:
+###101#10#########################
+        ^
+Páska 2:
+########100#######################
+         ^
+?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 286, Stav: 6
+Páska 1:
+###101#1##########################
+       ^
+Páska 2:
+########110#######################
+        ^
+?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+-----------------------------------
+Krok 287, Stav: 7
+Páska 1:
+###101############################
+      ^
+Páska 2:
+########010#######################
+       ^
+?(7, #, #) = (8, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 288, Stav: 8
+Páska 1:
+###101############################
+     ^
+Páska 2:
+#######1010#######################
+      ^
+?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 289, Stav: 5
+Páska 1:
+###101############################
+      ^
+Páska 2:
+#######1010#######################
+       ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 290, Stav: 5
+Páska 1:
+###101############################
+      ^
+Páska 2:
+#######1010#######################
+        ^
+?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+-----------------------------------
+Krok 291, Stav: 5
+Páska 1:
+###101############################
+      ^
+Páska 2:
+#######1010#######################
+         ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 292, Stav: 5
+Páska 1:
+###101############################
+      ^
+Páska 2:
+#######1010#######################
+          ^
+?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+-----------------------------------
+Krok 293, Stav: 5
+Páska 1:
+###101############################
+      ^
+Páska 2:
+#######1010#######################
+           ^
+?(5, #, #) = (8, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 294, Stav: 8
+Páska 1:
+###101############################
+     ^
+Páska 2:
+#######1010#######################
+          ^
+?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+-----------------------------------
+Krok 295, Stav: 6
+Páska 1:
+###101############################
+     ^
+Páska 2:
+#######1010#######################
+          ^
+?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 296, Stav: 6
+Páska 1:
+###10#############################
+    ^
+Páska 2:
+#######1011#######################
+         ^
+?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 297, Stav: 6
+Páska 1:
+###1##############################
+   ^
+Páska 2:
+#######1011#######################
+        ^
+?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 298, Stav: 6
+Páska 1:
+##################################
+  ^
+Páska 2:
+#######1111#######################
+       ^
+?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 299, Stav: 8
+Páska 1:
+##################################
+ ^
+Páska 2:
+#######1111#######################
+      ^
+?(8, #, #) = (9, #, #, NONE, NONE)
+-----------------------------------
+
+Výstup:
+#######1111#######################
+      ^
+
+Kódování Turingova stroje:
+11100011000000000011011000000000011010100010010100010010010100100010010010001001001010001000101000100010010010010100010010100010010010010010001001001000100100100100010001000100010001001001000101000100101000100100100010010001001001000100100100010001000100001000100010101000010001000100000100010001010100000101000100000100010101010000010010001000001000100101010000010001000100000010001000100010010000001000101000000100010100010010000001000100100000010001001000100100000010001000100000000010001000101010000000101010000000100010101010000000101001000000010001001010100000001010001000000010001010101000000010010100000001000100101010000000100100100000000100010101010000000100100010000000100010010101000000010001010000000001000101010100000001000100100000000010001001010100000001000100010000001000100010001001000000001010100000001000100101010000000010100100000000100010101010000000010010100000000100010101010000000010010010000000010001001010100000000100010100000010001001000100100000000100010010000000010001010001010000000010001000100000000010001001010100000000010100010000001010001001001000000000100100010000001001000100100100000000010001010000000000100010100010001000000000100010010000000000100010010001000100000000010001000100000000001000100010001000100000000010100100000001010010001000100000000010010100000001001010001000100000000010101000000010101000100010000000001001001000000010010010001000111
+
+Tabulka krokù:
+Krok 0, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 1, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 2, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 3, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 4, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 5, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 6, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 7, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 8, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 9, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 10, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 11, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 12, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 13, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 14, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 15, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 16, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 17, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 18, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 19, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 20, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 21, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 22, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 23, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 24, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 25, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 26, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 27, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 28, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 29, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 30, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 31, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 32, Stav: 7, Èteno: ('#', '1')
+  Pøechod: ?(7, #, 1) = (7, #, 0, NONE, LEFT)
+
+Krok 33, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 34, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 35, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 36, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 37, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 38, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 39, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 40, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 41, Stav: 6, Èteno: ('#', '0')
+  Pøechod: ?(6, #, 0) = (8, #, 0, LEFT, LEFT)
+
+Krok 42, Stav: 8, Èteno: ('#', '1')
+  Pøechod: ?(8, #, 1) = (9, #, 1, NONE, NONE)
+
+Krok 43, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 44, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 45, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 46, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 47, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 48, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 49, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 50, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 51, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 52, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 53, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 54, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 55, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 56, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 57, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 58, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 59, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 60, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 61, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 62, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 63, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 64, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 65, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 66, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 67, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 68, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 69, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 70, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 71, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 72, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 73, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 74, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 75, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 76, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 77, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 78, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 79, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 80, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 81, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 82, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 83, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 84, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 85, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 86, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 87, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 88, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 89, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 90, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 91, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 92, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 93, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 94, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 95, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 96, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 97, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 98, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 99, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 100, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 101, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 102, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 103, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 104, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 105, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 106, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 107, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 108, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 109, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 110, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 111, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 112, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 113, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 114, Stav: 7, Èteno: ('#', '1')
+  Pøechod: ?(7, #, 1) = (7, #, 0, NONE, LEFT)
+
+Krok 115, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 116, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 117, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 118, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 119, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 120, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 121, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 122, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 123, Stav: 6, Èteno: ('#', '0')
+  Pøechod: ?(6, #, 0) = (8, #, 0, LEFT, LEFT)
+
+Krok 124, Stav: 8, Èteno: ('#', '1')
+  Pøechod: ?(8, #, 1) = (9, #, 1, NONE, NONE)
+
+Krok 125, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 126, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 127, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 128, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 129, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 130, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 131, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 132, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 133, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 134, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 135, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 136, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 137, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 138, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 139, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 140, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 141, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 142, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 143, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 144, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 145, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 146, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 147, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 148, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 149, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 150, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 151, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 152, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 153, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 154, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 155, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 156, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 157, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 158, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 159, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 160, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 161, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 162, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 163, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 164, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 165, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 166, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 167, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 168, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 169, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 170, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 171, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 172, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 173, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 174, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 175, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 176, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 177, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 178, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 179, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 180, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 181, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 182, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 183, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 184, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 185, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 186, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 187, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 188, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 189, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 190, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 191, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 192, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 193, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 194, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 195, Stav: 8, Èteno: ('0', '0')
+  Pøechod: ?(8, 0, 0) = (6, 0, 0, NONE, NONE)
+
+Krok 196, Stav: 6, Èteno: ('0', '0')
+  Pøechod: ?(6, 0, 0) = (6, #, 0, LEFT, LEFT)
+
+Krok 197, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 198, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 199, Stav: 8, Èteno: ('0', '#')
+  Pøechod: ?(8, 0, #) = (5, 0, #, RIGHT, RIGHT)
+
+Krok 200, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 201, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 202, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 203, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 204, Stav: 8, Èteno: ('0', '0')
+  Pøechod: ?(8, 0, 0) = (6, 0, 0, NONE, NONE)
+
+Krok 205, Stav: 6, Èteno: ('0', '0')
+  Pøechod: ?(6, 0, 0) = (6, #, 0, LEFT, LEFT)
+
+Krok 206, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 207, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 208, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 209, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 210, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 211, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 212, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 213, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 214, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 215, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 216, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 217, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 218, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 219, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 220, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 221, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 222, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 223, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 224, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 225, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 226, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 227, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 228, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 229, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 230, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 231, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 232, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 233, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 234, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 235, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 236, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 237, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 238, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 239, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 240, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 241, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 242, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 243, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 244, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 245, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 246, Stav: 8, Èteno: ('0', '1')
+  Pøechod: ?(8, 0, 1) = (6, 0, 1, NONE, NONE)
+
+Krok 247, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 248, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 249, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 250, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 251, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 252, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 253, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 254, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 255, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 256, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 257, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 258, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 259, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 260, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 261, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 262, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 263, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 264, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 265, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 266, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 267, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 268, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 269, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 270, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 271, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 272, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 273, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 274, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 275, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 276, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 277, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 278, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 279, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 280, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 281, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 282, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 283, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 284, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 285, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 286, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 287, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 288, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 289, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 290, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 291, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 292, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 293, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 294, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 295, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 296, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 297, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 298, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 299, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+
+Binární výsledek: 1111
+Vstup:
+###1111#1111####################
+   ^
+################################
+^
+
+Krok 300, Stav: 0
+Páska 1:
+###1111#1111####################
+   ^
+Páska 2:
+################################
+^
+?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 301, Stav: 1
+Páska 1:
+###1111#1111####################
+    ^
+Páska 2:
+################################
+ ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 302, Stav: 1
+Páska 1:
+###1111#1111####################
+     ^
+Páska 2:
+################################
+  ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 303, Stav: 1
+Páska 1:
+###1111#1111####################
+      ^
+Páska 2:
+################################
+   ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 304, Stav: 1
+Páska 1:
+###1111#1111####################
+       ^
+Páska 2:
+################################
+    ^
+?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 305, Stav: 2
+Páska 1:
+###1111#1111####################
+        ^
+Páska 2:
+################################
+     ^
+?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 306, Stav: 1
+Páska 1:
+###1111#1111####################
+         ^
+Páska 2:
+################################
+      ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 307, Stav: 1
+Páska 1:
+###1111#1111####################
+          ^
+Páska 2:
+################################
+       ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 308, Stav: 1
+Páska 1:
+###1111#1111####################
+           ^
+Páska 2:
+################################
+        ^
+?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 309, Stav: 1
+Páska 1:
+###1111#1111####################
+            ^
+Páska 2:
+################################
+         ^
+?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+-----------------------------------
+Krok 310, Stav: 2
+Páska 1:
+###1111#1111####################
+             ^
+Páska 2:
+################################
+          ^
+?(2, #, #) = (3, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 311, Stav: 3
+Páska 1:
+###1111#1111####################
+            ^
+Páska 2:
+################################
+         ^
+?(3, #, #) = (4, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 312, Stav: 4
+Páska 1:
+###1111#1111####################
+           ^
+Páska 2:
+################################
+        ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 313, Stav: 4
+Páska 1:
+###1111#111#####################
+          ^
+Páska 2:
+########1#######################
+       ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 314, Stav: 4
+Páska 1:
+###1111#11######################
+         ^
+Páska 2:
+#######11#######################
+      ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 315, Stav: 4
+Páska 1:
+###1111#1#######################
+        ^
+Páska 2:
+######111#######################
+     ^
+?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 316, Stav: 4
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+    ^
+?(4, #, #) = (5, #, #, NONE, RIGHT)
+-----------------------------------
+Krok 317, Stav: 5
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+     ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 318, Stav: 5
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+      ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 319, Stav: 5
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+       ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 320, Stav: 5
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+        ^
+?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+-----------------------------------
+Krok 321, Stav: 5
+Páska 1:
+###1111#########################
+       ^
+Páska 2:
+#####1111#######################
+         ^
+?(5, #, #) = (8, #, #, LEFT, LEFT)
+-----------------------------------
+Krok 322, Stav: 8
+Páska 1:
+###1111#########################
+      ^
+Páska 2:
+#####1111#######################
+        ^
+?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+-----------------------------------
+Krok 323, Stav: 6
+Páska 1:
+###1111#########################
+      ^
+Páska 2:
+#####1111#######################
+        ^
+?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+-----------------------------------
+Krok 324, Stav: 7
+Páska 1:
+###111##########################
+     ^
+Páska 2:
+#####1110#######################
+       ^
+?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 325, Stav: 7
+Páska 1:
+###11###########################
+    ^
+Páska 2:
+#####1110#######################
+      ^
+?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 326, Stav: 7
+Páska 1:
+###1############################
+   ^
+Páska 2:
+#####1110#######################
+     ^
+?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 327, Stav: 7
+Páska 1:
+################################
+  ^
+Páska 2:
+#####1110#######################
+    ^
+?(7, #, #) = (8, #, 1, LEFT, LEFT)
+-----------------------------------
+Krok 328, Stav: 8
+Páska 1:
+################################
+ ^
+Páska 2:
+####11110#######################
+   ^
+?(8, #, #) = (9, #, #, NONE, NONE)
+-----------------------------------
+
+Výstup:
+####11110#######################
+   ^
+
+Kódování Turingova stroje:
+11100011000000000011011000000000011010100010010100010010010100100010010010001001001010001000101000100010010010010100010010100010010010010010001001001000100100100100010001000100010001001001000101000100101000100100100010010001001001000100100100010001000100001000100010101000010001000100000100010001010100000101000100000100010101010000010010001000001000100101010000010001000100000010001000100010010000001000101000000100010100010010000001000100100000010001001000100100000010001000100000000010001000101010000000101010000000100010101010000000101001000000010001001010100000001010001000000010001010101000000010010100000001000100101010000000100100100000000100010101010000000100100010000000100010010101000000010001010000000001000101010100000001000100100000000010001001010100000001000100010000001000100010001001000000001010100000001000100101010000000010100100000000100010101010000000010010100000000100010101010000000010010010000000010001001010100000000100010100000010001001000100100000000100010010000000010001010001010000000010001000100000000010001001010100000000010100010000001010001001001000000000100100010000001001000100100100000000010001010000000000100010100010001000000000100010010000000000100010010001000100000000010001000100000000001000100010001000100000000010100100000001010010001000100000000010010100000001001010001000100000000010101000000010101000100010000000001001001000000010010010001000111
+
+Tabulka krokù:
+Krok 0, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 1, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 2, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 3, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 4, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 5, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 6, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 7, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 8, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 9, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 10, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 11, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 12, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 13, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 14, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 15, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 16, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 17, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 18, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 19, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 20, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 21, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 22, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 23, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 24, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 25, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 26, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 27, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 28, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 29, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 30, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 31, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 32, Stav: 7, Èteno: ('#', '1')
+  Pøechod: ?(7, #, 1) = (7, #, 0, NONE, LEFT)
+
+Krok 33, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 34, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 35, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 36, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 37, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 38, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 39, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 40, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 41, Stav: 6, Èteno: ('#', '0')
+  Pøechod: ?(6, #, 0) = (8, #, 0, LEFT, LEFT)
+
+Krok 42, Stav: 8, Èteno: ('#', '1')
+  Pøechod: ?(8, #, 1) = (9, #, 1, NONE, NONE)
+
+Krok 43, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 44, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 45, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 46, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 47, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 48, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 49, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 50, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 51, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 52, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 53, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 54, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 55, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 56, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 57, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 58, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 59, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 60, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 61, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 62, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 63, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 64, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 65, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 66, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 67, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 68, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 69, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 70, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 71, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 72, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 73, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 74, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 75, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 76, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 77, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 78, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 79, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 80, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 81, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 82, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 83, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 84, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 85, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 86, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 87, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 88, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 89, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 90, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 91, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 92, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 93, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 94, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 95, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 96, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 97, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 98, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 99, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 100, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 101, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 102, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 103, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 104, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 105, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 106, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 107, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 108, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 109, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 110, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 111, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 112, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 113, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 114, Stav: 7, Èteno: ('#', '1')
+  Pøechod: ?(7, #, 1) = (7, #, 0, NONE, LEFT)
+
+Krok 115, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 116, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 117, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 118, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 119, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 120, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 121, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 122, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 123, Stav: 6, Èteno: ('#', '0')
+  Pøechod: ?(6, #, 0) = (8, #, 0, LEFT, LEFT)
+
+Krok 124, Stav: 8, Èteno: ('#', '1')
+  Pøechod: ?(8, #, 1) = (9, #, 1, NONE, NONE)
+
+Krok 125, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 126, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 127, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 128, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 129, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 130, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 131, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 132, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 133, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 134, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 135, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 136, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 137, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 138, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 139, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 140, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 141, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 142, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 143, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 144, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 145, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 146, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 147, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 148, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 149, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 150, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 151, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 152, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 153, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 154, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 155, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 156, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 157, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 158, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 159, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 160, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 161, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 162, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 163, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 164, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 165, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 166, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 167, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 168, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 169, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 170, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 171, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 172, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 173, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 174, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 175, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 176, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 177, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 178, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 179, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 180, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 181, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 182, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 183, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 184, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 185, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 186, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 187, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 188, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 189, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 190, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 191, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 192, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 193, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 194, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 195, Stav: 8, Èteno: ('0', '0')
+  Pøechod: ?(8, 0, 0) = (6, 0, 0, NONE, NONE)
+
+Krok 196, Stav: 6, Èteno: ('0', '0')
+  Pøechod: ?(6, 0, 0) = (6, #, 0, LEFT, LEFT)
+
+Krok 197, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 198, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 199, Stav: 8, Èteno: ('0', '#')
+  Pøechod: ?(8, 0, #) = (5, 0, #, RIGHT, RIGHT)
+
+Krok 200, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 201, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 202, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 203, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 204, Stav: 8, Èteno: ('0', '0')
+  Pøechod: ?(8, 0, 0) = (6, 0, 0, NONE, NONE)
+
+Krok 205, Stav: 6, Èteno: ('0', '0')
+  Pøechod: ?(6, 0, 0) = (6, #, 0, LEFT, LEFT)
+
+Krok 206, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 207, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 208, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 209, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 210, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 211, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 212, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 213, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 214, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 215, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 216, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 217, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 218, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 219, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 220, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 221, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 222, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 223, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 224, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 225, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 226, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 227, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 228, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 229, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 230, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 231, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 232, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 233, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 234, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 235, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 236, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 237, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 238, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 239, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 240, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 241, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 242, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 243, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 244, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 245, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 246, Stav: 8, Èteno: ('0', '1')
+  Pøechod: ?(8, 0, 1) = (6, 0, 1, NONE, NONE)
+
+Krok 247, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 248, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 249, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 250, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 251, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 252, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 253, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 254, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 255, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 256, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 257, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 258, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 259, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 260, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 261, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 262, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 263, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 264, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 265, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 266, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 267, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 268, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 269, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 270, Stav: 1, Èteno: ('0', '#')
+  Pøechod: ?(1, 0, #) = (1, 0, #, RIGHT, RIGHT)
+
+Krok 271, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 272, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 273, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 274, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 275, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 276, Stav: 4, Èteno: ('0', '#')
+  Pøechod: ?(4, 0, #) = (4, #, 0, LEFT, LEFT)
+
+Krok 277, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 278, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 279, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 280, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 281, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 282, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 283, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 284, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 285, Stav: 7, Èteno: ('0', '0')
+  Pøechod: ?(7, 0, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 286, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 287, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 288, Stav: 8, Èteno: ('1', '#')
+  Pøechod: ?(8, 1, #) = (5, 1, #, RIGHT, RIGHT)
+
+Krok 289, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 290, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 291, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 292, Stav: 5, Èteno: ('#', '0')
+  Pøechod: ?(5, #, 0) = (5, #, 0, NONE, RIGHT)
+
+Krok 293, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 294, Stav: 8, Èteno: ('1', '0')
+  Pøechod: ?(8, 1, 0) = (6, 1, 0, NONE, NONE)
+
+Krok 295, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 296, Stav: 6, Èteno: ('0', '1')
+  Pøechod: ?(6, 0, 1) = (6, #, 1, LEFT, LEFT)
+
+Krok 297, Stav: 6, Èteno: ('1', '0')
+  Pøechod: ?(6, 1, 0) = (6, #, 1, LEFT, LEFT)
+
+Krok 298, Stav: 6, Èteno: ('#', '1')
+  Pøechod: ?(6, #, 1) = (8, #, 1, LEFT, LEFT)
+
+Krok 299, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+Krok 300, Stav: 0, Èteno: ('1', '#')
+  Pøechod: ?(0, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 301, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 302, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 303, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 304, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 305, Stav: 2, Èteno: ('1', '#')
+  Pøechod: ?(2, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 306, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 307, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 308, Stav: 1, Èteno: ('1', '#')
+  Pøechod: ?(1, 1, #) = (1, 1, #, RIGHT, RIGHT)
+
+Krok 309, Stav: 1, Èteno: ('#', '#')
+  Pøechod: ?(1, #, #) = (2, #, #, RIGHT, RIGHT)
+
+Krok 310, Stav: 2, Èteno: ('#', '#')
+  Pøechod: ?(2, #, #) = (3, #, #, LEFT, LEFT)
+
+Krok 311, Stav: 3, Èteno: ('#', '#')
+  Pøechod: ?(3, #, #) = (4, #, #, LEFT, LEFT)
+
+Krok 312, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 313, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 314, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 315, Stav: 4, Èteno: ('1', '#')
+  Pøechod: ?(4, 1, #) = (4, #, 1, LEFT, LEFT)
+
+Krok 316, Stav: 4, Èteno: ('#', '#')
+  Pøechod: ?(4, #, #) = (5, #, #, NONE, RIGHT)
+
+Krok 317, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 318, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 319, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 320, Stav: 5, Èteno: ('#', '1')
+  Pøechod: ?(5, #, 1) = (5, #, 1, NONE, RIGHT)
+
+Krok 321, Stav: 5, Èteno: ('#', '#')
+  Pøechod: ?(5, #, #) = (8, #, #, LEFT, LEFT)
+
+Krok 322, Stav: 8, Èteno: ('1', '1')
+  Pøechod: ?(8, 1, 1) = (6, 1, 1, NONE, NONE)
+
+Krok 323, Stav: 6, Èteno: ('1', '1')
+  Pøechod: ?(6, 1, 1) = (7, #, 0, LEFT, LEFT)
+
+Krok 324, Stav: 7, Èteno: ('1', '1')
+  Pøechod: ?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+
+Krok 325, Stav: 7, Èteno: ('1', '1')
+  Pøechod: ?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+
+Krok 326, Stav: 7, Èteno: ('1', '1')
+  Pøechod: ?(7, 1, 1) = (7, #, 1, LEFT, LEFT)
+
+Krok 327, Stav: 7, Èteno: ('#', '#')
+  Pøechod: ?(7, #, #) = (8, #, 1, LEFT, LEFT)
+
+Krok 328, Stav: 8, Èteno: ('#', '#')
+  Pøechod: ?(8, #, #) = (9, #, #, NONE, NONE)
+
+
+Binární výsledek: 11110
+Výsledek funkce fun: 11110
