@@ -75,14 +75,59 @@ Protože násobení je implementováno jako opakované sčítání, je vstup upr
 > 101#11 → ##101#101#101##
 
 ### 3.1 Režim `fun` — Součin libovolného počtu čísel
+🔹 Nová přípravná funkce: fun_prepare(raw_input)
+Vstup může obsahovat libovolný počet operandů oddělených znakem `#`:
+> ##101#11#10###
+Funkce fun_prepare extrahuje všechny binární řetězce a připraví standardizovaný vstup:
+* odstraní nadbytečné `#`
+* zachová pořadí operandů
+* vrátí kanonickou formu: `##x1#x2#...#xn##`
+Příklad:
+| Vstup: | `##101#11#10###` |
+| :--- | :--- |
+| po přípravě: | `##101#11#10##` |
 
-Projekt byl rozšířen o novou funkci **`fun`**, která umožňuje spočítat součin libovolného počtu binárně kódovaných čísel:
+🔹 Výpočetní logika
+Vstup je rozložen na seznam binárních čísel.
+Postupně se aplikuje opakované násobení pomocí funkce `multiply_two`.
+Každá iterace interně připraví data pro Turingův stroj (pomocí `preprocess_product_input`).
+Stroj provede výpočet a vrátí binární výsledek.
+Ten se použije jako první operand další iterace.
+Díky tomu lze počítat výrazy jako:
+$$FUN(101_2, 11_2, 10_2) = 5 \times 3 \times 2 = 30 = 11110_2$$
+Stroj tedy pracuje s **vícestupňovým násobením**, i když samotný TS nativně podporuje pouze součin dvou čísel — iterace tento limit obchází.
 
-$$FUN(x_1, x_2, \dots, x_n) = x_1 \cdot x_2 \cdot \dots \cdot x_n$$
+🔹 Režim fun v uživatelském rozhraní
+Program nově nabízí i třetí mód práce:
+V režimu fun lze tedy zadat libovolný počet čísel, například:
+> ##101#11#10###
+Výstupem simulace bude sekvence dílčích výpočtů a finální binární výsledek.
 
-Tato funkce využívá již existující logiku násobení dvou čísel (režim `multi`) a skládá ji **iterativně**:
+---
+
+## 4. Kódování Turingova Stroje
+Po dokončení simulace je stroj zakódován pomocí třídy `TuringMachineCoder` do **unární podoby**.
+
+### Základní symboly
+- Hodnota: `0`
+- Oddělovač dat v přechodu: `1`
+- Oddělovač hlavních sekcí: `11`
+- Začátek/Konec kódu: `111`
+
+### Struktura kódu
+1. `111` (Začátek)
+2. Kódování **abecedy**
+3. Kódování **stavů** (počet stavů, startovní stav, koncové stavy)
+4. Kódování **přechodových funkcí**
+5. `111` (Konec)
+
+---
+
+## 5. Spuštění
+Program se spouští z metody `main()`:
 
 ```python
-prod = 1
-for každé číslo xi:
-    prod = multiply_two(prod, xi)
+def main():
+    mode = input("Zvol režim (sum / multi / fun): ").strip().lower()
+    raw_input = input("Zadej vstupní řetězec (např. 101#11 nebo 101#11#10): ").strip()
+    # ...
